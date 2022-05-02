@@ -1,0 +1,53 @@
+#global {
+    margin-left: 300px;
+    margin-top: 9px;
+    display: flex;
+  }
+
+
+ 
+  
+
+/* CSS */
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+body {
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: #f3f0f1;
+}
+body .button {
+  margin-right: 20px;
+  width: 200px;
+  height: 40px;
+  background: #f3f0f1;
+  position: relative;
+  background: #f3f0f1;
+  margin-bottom: -33px;
+    border-radius: 32px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+body .button span {
+  line-height: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size:15px;
+  font-weight: semibold;
+  text-align: center;
+
+}
+body .button {
+  box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
+  color: #6f6cde;
+}
+body .button:hover {
+  opacity: 0.3;
+  box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
+}
+body .button:active {
+  opacity: 1;
+  box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.5), inset 8px 8px 16px rgba(0, 0, 0, 0.1);
+  color: #79e3b6;
+}

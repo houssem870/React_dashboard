@@ -1,0 +1,116 @@
+
+h1 { color: #995aad; font-family: 'Droid serif', serif; font-size: 36px; font-weight: 400; font-style: italic; line-height: 44px; margin: 0 0 12px;
+ }
+#global {
+  margin-left: 300px;
+  margin-top: 9px;
+    display: inline-flex;
+}
+#butt {
+  margin-left: 300px;
+  margin-top: 29px;
+  display: block;
+}
+.user{
+  border: 1px solid rgb(94, 108, 147);
+  box-shadow: 8px 8px 5px #444;
+  padding: 8px 12px;
+}
+.truc-a-centrer {
+
+  height:40%;
+  width: 40%;
+  border: 1px solid rgb(94, 108, 147);
+  box-shadow: 8px 8px 5px #444;
+  padding: 8px 12px;
+  background-image: linear-gradient(180deg, #5f19b5, #520b6a 40%, #ffeeff);
+  background-color: rgb(139, 113, 196);
+  margin-right: 36px;
+  margin-top: 49px;
+
+}
+#home:hover{
+  -ms-transform: scale(0.5); /* IE 9 */
+  -webkit-transform: scale(0.5); /* Safari 3-8 */
+  transform: scale(1.1);
+  }
+  #searchbox {
+    width: 240px;
+    }
+    #searchbox input {
+    outline: none;
+    }
+    input:focus::-webkit-input-placeholder {
+    color: transparent;
+    }
+    input:focus:-moz-placeholder {
+    color: transparent;
+    }
+    input:focus::-moz-placeholder {
+    color: transparent;
+    }
+    #searchbox input[type='text'] {
+    background: url(http://2.bp.blogspot.com/-xpzxYc77ack/VDpdOE5tzMI/AAAAAAAAAeQ/TyXhIfEIUy4/s1600/search-dark.png) no-repeat 10px 13px #f2f2f2;
+    border: 2px solid #f2f2f2;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: #6A6F75;
+    width: 160px;
+    padding: 14px 17px 12px 30px;
+    -webkit-border-radius: 5px 0px 0px 5px;
+    -moz-border-radius: 5px 0px 0px 5px;
+    border-radius: 5px 0px 0px 5px;
+    text-shadow: 0 2px 3px #fff;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    }
+    #searchbox input[type= 'text']:focus {
+    background: #f7f7f7;
+    border: 2px solid #f7f7f7;
+    width: 200px;
+    padding-left: 10px;
+    }
+    #button-submit{
+      background: url(http://4.bp.blogspot.com/-slkXXLUcxqg/VEQI-sJKfZI/AAAAAAAAAlA/9UtEyStfDHw/s1600/slider-arrow-right.png) no-repeat;
+      margin-left: -40px;
+      border-width: 0px;
+      width: 43px;
+      height: 45px;
+      }
+
+      button {
+        margin-right: 20px;
+        width: 200px;
+        height: 40px;
+        background: #f3f0f1;
+        position: relative;
+        background: #f3f0f1;
+        margin-bottom: 8px;
+                border-radius: 32px;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.1s ease-in-out;
+      }
+      button span {
+        line-height: 50px;
+        font-family: "Montserrat", sans-serif;
+        font-size:15px;
+        font-weight: semibold;
+        text-align: center;
+      
+      }
+      button {
+        box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
+        color: #6f6cde;
+      }
+      button:hover {
+        opacity: 0.3;
+        box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
+      }
+      button:active {
+        opacity: 1;
+        box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.5), inset 8px 8px 16px rgba(0, 0, 0, 0.1);
+        color: #79e3b6;
+      }
+      
